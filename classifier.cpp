@@ -4,7 +4,7 @@
 int main(void){
 
     train();
-     
+    predict(); 
 
 
 
@@ -14,6 +14,11 @@ int main(void){
 void train() {
     printf("train\n"); 
 
+
+}
+
+void predict(){
+    printf("predict\n");
 
 
 }
